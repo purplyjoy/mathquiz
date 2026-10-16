@@ -1,0 +1,10 @@
+oracleJdk-27/
+
+*.class
+
+*.lnk
+
+build/  
+out/
+
+*.jar
