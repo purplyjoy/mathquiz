@@ -1,73 +1,98 @@
-MathQuiz is a Java-based quiz application that allows users to test and improve their mathematical knowledge through interactive quizzes. This project was developed as a programming project to practice Java programming and application development.
+ 
+## MathQuiz
 
-Features
+  A Java-based mathematics quiz application
+
+## About the Project
+
+MathQuiz is a Java-based quiz application that allows users to test and improve their mathematical knowledge through interactive quizzes. This project was developed as a programming course requirement to practice Java programming and application development.
+
+## Features
+
 - Interactive mathematics quizzes
 - User-friendly interface
 - Instant feedback on quiz answers
-- Score summary after the quiz
-- History of quizzes with the total score and level of difficulty
+- Score summary after each quiz
+- Quiz history showing total scores and difficulty levels
 
-Built With
-Java - main programming language
-NetBeans IDE - original development environment
-Visual Studio Code - development environment used after transferring the project from NetBeans
-Java Development Kit (JDK) - for compiling and running java programs
+## Built With
 
-Note: This project was originally developed in NetBeans as part of the course requirements and was later transferred to Visual Studio Code.
+- **Java** — Main programming language
+- **NetBeans IDE** — Original development environment
+- **Visual Studio Code** — Development environment used after transferring the project from NetBeans
+- **Java Development Kit (JDK)** — Used to compile and run Java programs
 
-Requirements
+> **Note:** This project was originally developed in NetBeans as part of the course requirements and was later transferred to Visual Studio Code.
+
+## Requirements
+
 Before running MathQuiz, make sure you have:
+
 - A computer running Windows
-- Java installed on your computer (JDK) recommended
+- Java Development Kit (JDK) installed
 - The MathQuiz project files
 
-How to Run
+## Installation
 
-Option 1: Run the Application Using the JAR File
-1. Download or clone this repository
-2. Make sure Java is installed in your computer
-3. Open Command Prompt or terminal in the project folder
-4. Run the following command, replacing MathQuiz.jar with the actual name of you JAR file:
-    java -jar MathQuiz.jar
+### Option 1: Clone the Repository Using Git
 
-Option 2: Run Using the Batch File 
-1. Download or clone this repository
-2. Make sure Java is installed in your computer
-3. Locate the .bat file in the project folder
-4. Doluble-click the batch file to launch the application
+1. Open a terminal or Command Prompt.
+2. Clone the repository:
+
+   ```bash
+   git clone https://github.com/purplyjoy/mathquiz.git
+   ```
+
+3. Navigate to the project directory:
+
+   ```bash
+   cd mathquiz
+   ```
+
+4. Open the project folder in Visual Studio Code.
+
+### Option 2: Download the Repository as a ZIP File
+
+1. Visit the [MathQuiz GitHub repository](https://github.com/purplyjoy/mathquiz).
+2. Click **Code → Download ZIP**.
+3. Extract the downloaded ZIP file.
+4. Open the extracted project folder in Visual Studio Code.
+
+## How to Run
+
+### Option 1: Run Using the Batch File
+
+1. Download or clone the repository.
+2. Make sure Java is installed.
+3. Locate `MathQuiz.bat` in the project folder.
+4. Double-click the batch file to launch the application.
+
 If the application does not start, check that Java is installed and available from the command line.
 
-Option 3: Run the Source Code
-1. Install the JDK
-2. Download or clone this repository
-3. Open the project folder in Visual Studio Code
-4. Install the Java extensions if prompted
-5. Open the main java source file
-6. Compile and run the program using the Java tools in VS Code, or use the terminal
+### Option 2: Run the Source Code in VS Code
 
-Installation
+1. Install the JDK.
+2. Download or clone the repository.
+3. Open the project folder in Visual Studio Code.
+4. Install the Java extensions if prompted.
+5. Open the main Java source file.
+6. Compile and run the program using the Java tools in VS Code or the terminal.
 
-Option 1: Clone the Repository Using Git
-To clone the repository using Git, run:
-git clone https://github.com/purplyjoy/mathquiz.git
-Then enter the project directory:
-cd mathquiz
-Open the project folder in VS Code to view and run the source code.
+## Project Structure
 
-Option 2: Download the Repository as a ZIP File
-Visit the MathQuiz GitHub repository.
-Click Code → Download ZIP.
-Extract the downloaded ZIP file.
-Open the extracted project folder in Visual Studio Code
-
-Project Structure
+```text
 mathquiz/
-├── src/              # Java source files (questions (easy, medium, hard) and history file)
-|   ├── easy          # Easy-level questions
-|   ├── medium        # Medium-level questions
-|   ├── hard          # Hard-level questions
-|   ├── historyFile   # Quiz history data
+├── src/
+│   ├── easy          # Easy-level questions
+│   ├── medium        # Medium-level questions
+│   ├── hard          # Hard-level questions
+│   └── historyFile   # Quiz history data
 ├── .gitignore        # Files excluded from Git
-├── NewJFrame.java    # Java source file
+├── NewJFrame.java    # Main Java source file
 ├── MathQuiz.bat      # Windows launcher
 └── README.md         # Project documentation
+```
+
+---
+
+    Developed as a Java programming course project.
